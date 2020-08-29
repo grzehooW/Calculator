@@ -6,11 +6,12 @@ public class Calculator {
     private float no2;
     private String operate;
 
-    public void setNo1(float no1){
-        this.no1 = no1;
-    }
-    public float getNo1(){
+    public float getNo1() {
         return no1;
+    }
+
+    public void setNo1(float no1) {
+        this.no1 = no1;
     }
 
     public float getNo2() {
@@ -29,8 +30,8 @@ public class Calculator {
         this.operate = operate;
     }
 
-    public float performCalculationn(){
-        switch (operate){
+    public float performCalculationn() {
+        switch (operate) {
             case "+":
                 return no1 + no2;
             case "-":

@@ -61,6 +61,7 @@ public class Calculating {
             try{
                 System.out.print("\nEnter the second number: ");
                 no2 = scanner.nextInt();
+                scanner.nextLine();
                 break;
             }catch (InputMismatchException ex){
                 System.out.println("Number must be numeric: ");
